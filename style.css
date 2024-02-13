@@ -1,0 +1,606 @@
+body {
+    background-color: #f6f6f6;
+}
+
+/* CSS Reset: https://meyerweb.com/eric/tools/css/reset/ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.window {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    overflow: hidden;
+}
+
+.incbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.all {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    height: 100vh;
+    margin: 0;
+    gap: 25px;
+}
+
+h1,
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.bigLetterContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 56px;
+    position: relative;
+    left: 53px;
+    top: -1855px
+}
+
+.bigLetterContainer2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigLetter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 3px;
+}
+
+.bigLetter2 {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    gap: 3px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 212px 53px 159px 53px 159px 53px 159px 53px;
+    grid-template-rows: 53px 212px 53px 212px 53px 212px 53px 212px 53px 212px 53px 212px 53px 212px 53px;
+    margin-bottom: 106px;
+}
+
+.section {
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 {
+    gap: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.clock {
+    width: 50px;
+    height: 50px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    position: relative;
+}
+
+.backgroundclock {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.backgroundclock1 {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.backgroundclock2 {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.09);
+}
+
+.backgroundclock3 {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.06);
+}
+
+.backgroundclock4 {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.03);
+}
+
+.backgroundclock5 {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.02);
+}
+
+
+/* HERE */
+.r6,
+.r7 {
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+
+.backgroundclock6 {
+    overflow: hidden;
+}
+
+.backgroundclock7 {
+    overflow: hidden;
+}
+
+.hand {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom;
+}
+
+.hourHand,
+.minuteHand {
+    background-color: rgb(0, 0, 0);
+    width: 4px;
+    height: 20px;
+}
+
+.secondHand {
+    background-color: rgb(255, 0, 0);
+    width: 1.5px;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.dot {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.smallDot {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hand.secondHand {
+    transform: translate(-50%, -100%) rotate(0deg);
+    animation: second 60s linear infinite;
+}
+
+@keyframes second {
+    to {
+        transform: translate(-50%, -100%) rotate(360deg);
+    }
+}
+
+.hand.hourHand.n {
+    transform: translate(-50%, -100%) rotate(0deg);
+
+}
+
+.animate .hand.hourHand.n {
+    animation: n 4s linear infinite;
+}
+
+.hand.minuteHand.n {
+    transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.animate .hand.minuteHand.n {
+    animation: n 20s linear infinite;
+}
+
+@keyframes n {
+    to {
+        transform: translate(-50%, -100%) rotate(360deg);
+    }
+}
+
+.hand.hourHand.ne {
+    transform: translate(-50%, -100%) rotate(45deg);
+}
+
+.animate .hand.hourHand.ne {
+    animation: ne 4s linear infinite;
+}
+
+.hand.minuteHand.ne {
+    transform: translate(-50%, -100%) rotate(45deg);
+}
+
+.animate .hand.minuteHand.ne {
+    animation: ne 20s linear infinite;
+}
+
+@keyframes ne {
+    to {
+        transform: translate(-50%, -100%) rotate(405deg);
+    }
+}
+
+.hand.hourHand.e {
+    transform: translate(-50%, -100%) rotate(90deg);
+}
+
+.animate .hand.hourHand.e {
+    animation: e 4s linear infinite;
+}
+
+.hand.minuteHand.e {
+    transform: translate(-50%, -100%) rotate(90deg);
+}
+
+.animate .hand.minuteHand.e {
+    animation: e 20s linear infinite;
+}
+
+@keyframes e {
+    to {
+        transform: translate(-50%, -100%) rotate(450deg);
+    }
+}
+
+.hand.hourHand.se {
+    transform: translate(-50%, -100%) rotate(135deg);
+}
+
+.animate .hand.hourHand.se {
+    animation: se 4s linear infinite;
+}
+
+.hand.minuteHand.se {
+    transform: translate(-50%, -100%) rotate(135deg);
+}
+
+.animate .hand.minuteHand.se {
+    animation: se 20s linear infinite;
+}
+
+
+@keyframes se {
+    to {
+        transform: translate(-50%, -100%) rotate(495deg);
+    }
+}
+
+.hand.hourHand.s {
+    transform: translate(-50%, -100%) rotate(180deg);
+}
+
+.animate .hand.hourHand.s {
+    animation: s 4s linear infinite;
+}
+
+.hand.minuteHand.s {
+    transform: translate(-50%, -100%) rotate(180deg);
+}
+
+.animate .hand.minuteHand.s {
+    animation: s 20s linear infinite;
+}
+
+@keyframes s {
+    to {
+        transform: translate(-50%, -100%) rotate(540deg);
+    }
+}
+
+.hand.hourHand.sw {
+    transform: translate(-50%, -100%) rotate(225deg);
+}
+
+.animate .hand.hourHand.sw {
+    animation: sw 4s linear infinite;
+}
+
+.hand.minuteHand.sw {
+    transform: translate(-50%, -100%) rotate(225deg);
+}
+
+.animate .hand.minuteHand.sw {
+    animation: sw 20s linear infinite;
+}
+
+@keyframes sw {
+    to {
+        transform: translate(-50%, -100%) rotate(585deg);
+    }
+}
+
+.hand.hourHand.w {
+    transform: translate(-50%, -100%) rotate(270deg);
+}
+
+.animate .hand.hourHand.w {
+    animation: w 4s linear infinite;
+}
+
+.hand.minuteHand.w {
+    transform: translate(-50%, -100%) rotate(270deg);
+}
+
+.animate .hand.minuteHand.w {
+    animation: w 20s linear infinite;
+}
+
+@keyframes w {
+    to {
+        transform: translate(-50%, -100%) rotate(630deg);
+    }
+}
+
+.hand.hourHand.nw {
+    transform: translate(-50%, -100%) rotate(315deg);
+}
+
+.animate .hand.hourHand.nw {
+    animation: nw 4s linear infinite;
+}
+
+.hand.minuteHand.nw {
+    transform: translate(-50%, -100%) rotate(315deg);
+}
+
+.animate .hand.minuteHand.nw {
+    animation: nw 20s linear infinite;
+}
+
+@keyframes nw {
+    to {
+        transform: translate(-50%, -100%) rotate(675deg);
+    }
+}
+
+/* Add this class to pause the rotation */
+.clock.paused .hand {
+    animation-play-state: paused !important;
+    /* Ensure that the animation is paused */
+}
+
+.button {
+    display: inline-block;
+    padding: 0px 0px;
+    background-color: #f6f6f6;
+    border: 0px solid #f6f6f6;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    width: 103px;
+    height: 51px;
+    text-align: center;
+    position: relative;
+    top: -263px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 50px;
+    cursor: none;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 0px 0px;
+    background-color: #f6f6f6;
+    border: 0px solid #f6f6f6;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    width: 103px;
+    height: 51px;
+    text-align: center;
+    position: relative;
+    top: -314px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    line-height: 50px;
+    cursor: none;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.06);
+    z-index: -9;
+}
+
+.button:hover {
+    background-color: #000000;
+    background-color: #f6f6f6;
+    cursor: none;
+}
+
+#custom-cursor {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.red-cursor {
+    background-color: rgb(190, 0, 0) !important;
+}
+
+#custom-cursor2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.red-cursor2 {
+    background-color: rgb(190, 0, 0) !important;
+}
