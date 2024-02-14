@@ -125,6 +125,7 @@ video {
     width: 100vw;
     height: 2670px;
     display: block;
+    cursor: none;
 }
 
 .incbutton2 {
@@ -667,18 +668,19 @@ h2 {
     position: relative;
     left: 17px;
     top: 9px;
+    cursor: none;
 }
 
 .playpause.paused .playpause-button {
     content: url('play.png');
-    /* Set content to play icon when paused */
     transform: translateX(2px);
-    /* Move the play button 2 pixels to the right */
+    cursor: none;
 }
 
 .up {
     position: relative;
     top: -36px;
+    cursor: none;
 }
 
 .button3 {
@@ -730,4 +732,25 @@ h2 {
     top: -2067px;
     z-index: -1;
     left: 0px;
+}
+
+
+#custom-cursor2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999999;
+    background-color: black;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.red-cursor2 {
+    background-color: rgb(190, 0, 0) !important;
+}
+
+.none {
+    display: none;
 }
