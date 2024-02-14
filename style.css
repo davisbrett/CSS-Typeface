@@ -532,7 +532,7 @@ video {
     border-radius: 100px;
     text-decoration: none;
     color: #000000;
-    font-size: 15px;
+    font-size: 15.5px;
     margin: 0;
     width: 103px;
     height: 50px;
@@ -600,7 +600,7 @@ video {
     position: relative;
     width: 200px;
     z-index: 1;
-    top: -50px;
+    top: -47px;
     right: -20px;
 }
 
@@ -616,9 +616,9 @@ h1 {
 }
 
 h2 {
-    font-size: 17px;
+    font-size: 15.5px;
     font-style: italic;
-    margin-top: -3px;
+    margin-top: -10px;
     font-family: 'DM Sans', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -674,7 +674,7 @@ h2 {
     border-radius: 100px;
     text-decoration: none;
     color: #000000;
-    font-size: 15px;
+    font-size: 15.5px;
     margin: 0;
     width: 103px;
     height: 50px;
@@ -700,7 +700,7 @@ h2 {
     border-radius: 100px;
     text-decoration: none;
     color: #000000;
-    font-size: 15px;
+    font-size: 15.5px;
     margin: 0;
     width: 103px;
     height: 50px;

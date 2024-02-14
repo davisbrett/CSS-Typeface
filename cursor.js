@@ -2,12 +2,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var button = document.querySelector('.button');
     var cursor = document.getElementById('custom-cursor');
 
-    cursor.style.left = '-50px';
-    cursor.style.top = '-50px';
+    // Set initial position of the cursor to be outside of the viewport
+    cursor.style.left = '-100px'; // Adjust as needed
+    cursor.style.top = '-100px'; // Adjust as needed
 
-    console.log('Button:', button);
-    console.log('Cursor:', cursor);
+    console.log('Button:', button); // Log the button element
+    console.log('Cursor:', cursor); // Log the cursor element
 
+    // Rest of your cursor logic remains unchanged
     button.addEventListener('mouseover', function () {
         console.log('Button mouseover event triggered');
         cursor.classList.add('red-cursor');
@@ -18,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         cursor.classList.remove('red-cursor');
     });
 
-    var clocks = document.querySelectorAll('.clock1, .clock2, .clock3, .clock4, .clock5, .clock6, .clock7, .clock8, .clock9, .clock10, .clock11, .clock12');
+    var clocks = document.querySelectorAll('.clock1, .clock2, .clock3, .clock4, .clock5, .clock6, .clock7, .clock8, .clock9, .clock10, .clock11, .clock12, .bigLetter');
     clocks.forEach(function (clock) {
         clock.addEventListener('mouseover', function () {
             console.log('Clock mouseover event triggered');
@@ -42,10 +44,11 @@ document.addEventListener('DOMContentLoaded', function () {
         cursor.classList.remove('red-cursor');
     });
 
+    // Update cursor position on mousemove event, accounting for scrolling
     document.addEventListener('mousemove', function (e) {
         console.log('Mousemove event triggered');
-        var x = e.clientX;
-        var y = e.clientY;
+        var x = e.clientX + window.scrollX;
+        var y = e.clientY + window.scrollY;
         cursor.style.left = (x - 15) + 'px';
         cursor.style.top = (y - 15) + 'px';
     });
