@@ -532,7 +532,7 @@ video {
     border-radius: 100px;
     text-decoration: none;
     color: #000000;
-    font-size: 15.5px;
+    font-size: 15px;
     margin: 0;
     width: 103px;
     height: 50px;
@@ -543,7 +543,7 @@ video {
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 450;
-    letter-spacing: -.5px;
+    letter-spacing: -.25px;
     line-height: 50px;
     cursor: none;
 }
@@ -567,7 +567,7 @@ video {
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: -.5px;
+    letter-spacing: -.25px;
     line-height: 50px;
     cursor: none;
     box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.06);
@@ -616,7 +616,7 @@ h1 {
 }
 
 h2 {
-    font-size: 15.5px;
+    font-size: 15px;
     font-style: italic;
     margin-top: -10px;
     font-family: 'DM Sans', sans-serif;
@@ -625,7 +625,7 @@ h2 {
     font-weight: 450;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    letter-spacing: -.5px;
+    letter-spacing: -.25px;
 }
 
 #animation-container {
@@ -674,7 +674,7 @@ h2 {
     border-radius: 100px;
     text-decoration: none;
     color: #000000;
-    font-size: 15.5px;
+    font-size: 15px;
     margin: 0;
     width: 103px;
     height: 50px;
@@ -683,7 +683,7 @@ h2 {
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 450;
-    letter-spacing: -.5px;
+    letter-spacing: -.25px;
     line-height: 50px;
     position: relative;
     top: -2067px;
@@ -700,7 +700,7 @@ h2 {
     border-radius: 100px;
     text-decoration: none;
     color: #000000;
-    font-size: 15.5px;
+    font-size: 15px;
     margin: 0;
     width: 103px;
     height: 50px;
@@ -709,7 +709,7 @@ h2 {
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 450;
-    letter-spacing: -.5px;
+    letter-spacing: -.25px;
     line-height: 50px;
     position: relative;
     top: -2067px;
